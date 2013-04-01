@@ -1,0 +1,45 @@
+{
+  "nav": [{
+    "name": "Sitewide Styles",
+    "files": [{
+      "name": "Common Styles",
+      "file": "common.elements"
+    }, {
+      "name": "Common Modules",
+      "file": "common.modules"
+    }, {
+      "name": "Global JS Functionality",
+      "file": "common.javascript"
+    }]
+  }, {
+    "name": "Widget Patterns",
+    "files": [{
+      "name": "Tooltips",
+      "file": "common.tooltips"
+    }]
+  }, {
+    "name": "Section Specific",
+    "files": [{
+      "name": "Index Modules",
+      "file": "index.elements"
+    }, {
+      "name": "Search",
+      "file": "search.elements"
+    }]
+  }, {
+    "name": "StyleGuide",
+    "files": [{
+      "name": "Using this StyleGuide",
+      "file": "styleguide.howto"
+    }, {
+      "name": "Testing with the Guide",
+      "file": "styleguide.testing"
+    }]
+  }, {
+    "name": "Coding Standards",
+    "files": [{
+      "name": "Front-end Code Standards",
+      "file": "fe.coding.standards"
+    }]
+  }]
+}

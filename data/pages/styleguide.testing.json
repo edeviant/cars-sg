@@ -1,0 +1,14 @@
+{
+  "pagename": "StyleGuide: Testing",
+  "elements": [{
+    "title": "How to use this for testing.",
+    "description": "What is this?",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/styleguide/testing/intro.markdown"
+    }
+  }]
+}

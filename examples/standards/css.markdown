@@ -1,0 +1,10 @@
+- If possible, group style sheet sections together by using comments. Separate sections with new lines.
+- Use single quotation marks for attribute selectors and property values where necessary.
+- Use a space after a property name's colon.
+- Use a semicolon after every declaration, even the last one.
+- Indent rulesets to match indent pattern of the matching HTML elements.
+- Use 3 character hexadecimal notation where possible.
+- Omit unit specification after 0 values.
+- Omit leading 0s in values.
+- Use shorthand properties where possible.
+- Avoid qualifying ID and class names with type selectors.

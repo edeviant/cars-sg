@@ -1,0 +1,9 @@
+- Variables should be defined in lower camel case (<code>thisIsMyVariableName</code>) never underscores
+- Variables should be explicitly declared with <code>var</code>
+- Methods should be defined as and named as variables
+- Prefer single quote over double quote
+- Avoid creating new js files
+- No whitespace between <code>function</code> and <code>parens()</code>
+- Prefer <code>can.view</code> using templates instead of DOM manipulation
+- Avoid global prototypes on primitives
+- Prefer <code>$.each</code> over <code>for..in</code> loops

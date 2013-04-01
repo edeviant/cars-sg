@@ -1,0 +1,3 @@
+- Any changes done to following files must be be approved by Lead or Enterprise Archtect before it goes to production
+- core.css
+- main.js

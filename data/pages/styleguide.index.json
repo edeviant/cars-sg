@@ -1,0 +1,14 @@
+{
+  "pagename": "Cars.com Core StyleGuide",
+  "elements": [{
+    "title": "",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/styleguide/index.markdown"
+    }
+  }]
+}

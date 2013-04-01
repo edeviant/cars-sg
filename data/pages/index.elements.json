@@ -1,0 +1,14 @@
+{
+  "pagename": "Index Modules",
+  "elements": [{
+    "title": "Search Widget",
+    "description": "The Primary Search Widget",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/index/search.widget.markdown"
+    }
+  }]
+}

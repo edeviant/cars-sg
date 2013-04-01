@@ -1,0 +1,207 @@
+{
+  "pagename": "Common Styles & Elements",
+  "elements": [{
+    "title": "Headers",
+    "description": "Common Headers for Cars.com",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/headers.markdown"
+    }
+  },
+  {
+    "title": "Colors",
+    "description": "Cars.com Rebrand Color Palette",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/colors.markdown"
+    }
+  },
+  {
+    "title": "Typography",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/typography.markdown"
+    }
+  },
+  {
+    "title": "Buttons",
+    "description": "Buttons Based on Links and Inputs",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/buttons.markdown"
+    }
+  },
+  {
+    "title": "Grid",
+    "description": "Common Grid Layouts for Cars.com.",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/gridlayouts.markdown"
+    }
+  },
+  {
+    "title": "Links",
+    "description": "Default Link Styling and Icons",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/links.markdown"
+    }
+  },
+  {
+    "title": "Share Widget",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/share.markdown"
+    }
+  },
+  {
+    "title": "Pagination",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/pagination.markdown"
+    }
+  },
+  {
+    "title": "Breadcrumbs",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/breadcrumbs.markdown"
+    }
+  },
+  {
+    "title": "Alerts",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/alerts.markdown"
+    }
+  },
+  {
+    "title": "Forms",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/forms.markdown"
+    }
+  },
+  {
+    "title": "Tabs ",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/tabs.markdown"
+    }
+  }
+  ,
+  {
+    "title": "Modals",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": "/core/js/libs/jquery/jquery.tools.min.js"
+    },
+    "usage": {
+      "file": "examples/common/modals.markdown"
+    }
+  },
+  {
+    "title": "Photo Gallery",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": "/core/js/libs/jquery/jquery.tools.min.js"
+    },
+    "usage": {
+      "file": "examples/common/photogallery.markdown"
+    }
+  }
+  ,
+   {
+    "title": "Ratings",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": ""
+    },
+    "usage": {
+      "file": "examples/common/ratings.markdown"
+    }
+  }
+  ,
+  {
+    "title": "Carousel",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": ""
+    },
+    "usage": {
+      "file": "examples/common/carousel.markdown"
+    }
+  }
+  ,
+  {
+    "title": "Tables",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/tables.markdown"
+    }
+  }
+  ,
+  {
+    "title": "Alignment Classes",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/alignmentclasses.markdown"
+    }
+  }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "pagename": "Tooltips",
+  "elements": [{
+    "title": "Simple Tooltip",
+    "description": "asdf",
+    "requires": {
+      "css": [],
+      "js": ["modules/tooltips"]
+    },
+    "usage": {
+      "html": "<p>hi.</p>",
+      "js": "",
+      "description": "how to use tooltips"
+    }
+  }, {
+    "title": "Simple Flyout",
+    "description": "asdf",
+    "requires": {
+      "css": [],
+      "js": ["modules/tooltips"]
+    },
+    "usage": {
+      "html": "<p></p>",
+      "js": "",
+      "description": "how to use flyouts",
+      "options": {
+        "hrm": "yes..."
+      }
+    }
+  }]
+}

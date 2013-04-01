@@ -1,0 +1,5 @@
+- Indent all files using two-spaces *(no tabs)*
+- Separate words in ID and class names by a hyphen (<code>this-is-my-classname</code>)
+- Use meaningful and generic ID and class names, not visual descriptors
+- Use only lowercase
+- Remove trailing white spaces

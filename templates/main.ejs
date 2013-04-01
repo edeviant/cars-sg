@@ -1,0 +1,11 @@
+<%== can.view.render('templates/jumplinks.ejs', this.attr('jumpLinks')) %>
+<div class="carssg-style-menu-container" id="top">
+  <div class="carssg-style-menu">
+    <%== can.view.render('templates/nav.ejs', this.attr('navigation')) %>
+  </div>
+</div>
+<div class="carssg-style-page">
+  <div class="carssg-comments"><h1><%= this.attr('pageTitle') %></h1>
+  </div>
+  <%== can.view.render('templates/docs.ejs', this.attr('guideData')) %>
+</div>

@@ -1,0 +1,21 @@
+<div class="menu-items">
+  <a class="carssg-styleguide-menu-heading" href="<%= can.route.url('') %>"><h1><img src="http://graphics.cars.com/images/core/logo.png" height="16" valign="baseline" /> Core StyleGuide</h1></a>
+    <% if (this.nav) { %>
+      <ul class="carssg-styleguide-menu">
+      <% for (var i=0, j=this.nav.length; i < j; i++) { %>
+        <% if ((this.nav[i].files)) { %>
+          <li><h3><%= this.nav[i].name %></h3>
+            <ul class="sheet-submenu">
+            <% for (var ii=0, jj=this.nav[i].files.length; ii < jj; ii++) { %>
+              <li><a href="<%= can.route.url({type: 'guides', id: this.nav[i].files[ii].file}) %>" ><%= this.nav[i].files[ii].name %></a></li>
+              <% } %>
+            </ul>
+          </li>
+        <% } else { %>
+        <li><h3><a class="carssg-styleguide-menu-link" href="<%= can.route.url({type: 'guides', id: this.nav[i].file}) %>" ><%= this.nav[i].name %></a></h3></li>
+        <% } %>
+      <% } %>
+      </ul>
+    <% } %>
+  <div style="clear: both;"></div>
+</div>

@@ -1,0 +1,44 @@
+{
+  "pagename": "StyleGuide How To",
+  "elements": [{
+    "title": "Overview of the StyleGuide.",
+    "description": "What is this?",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/styleguide/howto/overview.markdown"
+    }
+  },{
+    "title": "Updating the StyleGuide Navigation.",
+    "description": "Modifying the configuration for the left rail.",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/styleguide/howto/updatingnavigation.markdown"
+    }
+  },{
+    "title": "Configuring StyleGuide Pages.",
+    "description": "Creating the layout of a given page",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/styleguide/howto/addingpages.markdown"
+    }
+  },{
+    "title": "Creating Documentation.",
+    "description": "Creating documentation elements to pull into pages.",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/styleguide/howto/writingdocumentation.markdown"
+    }
+  }]
+}

@@ -1,0 +1,64 @@
+{
+  "pagename": "Front-end Code Standards",
+  "elements": [{
+    "title": "General Principles",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/standards/principles.markdown"
+    }
+  },{
+    "title": "General Groundrules",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/standards/groundrules.markdown"
+    }
+  },{
+    "title": "HTML Standards",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/standards/html.markdown"
+    }
+  },{
+    "title": "CSS Standards",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/standards/css.markdown"
+    }
+  },{
+    "title": "Javascript Standards",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/standards/javascript.markdown"
+    }
+  },{
+    "title": "Directory Structure",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/standards/directorystructure.markdown"
+    }
+  }]
+}

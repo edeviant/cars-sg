@@ -1,0 +1,14 @@
+{
+  "pagename": "Global Javascript Functionality",
+  "elements": [{
+    "title": "Deferred Loading: Images",
+    "description": "Method for deferred loading of images until the user scrolls into view.",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/deferred-loading.markdown"
+    }
+  }]
+}

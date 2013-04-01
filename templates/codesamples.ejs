@@ -1,0 +1,15 @@
+<div class="more-detail"><%= this.overview %></div>
+<% if (this.html.sample.length >0 || this.javascript.sample.length > 0 || this.css.sample.length > 0) { %>
+<div class="codedemo">
+  <div class="carssg-comments">
+    <% for(var i=0,j=this.html.source.length; i<j; i++) { %><%== this.html.source[i] %><% } %>
+  </div>
+  <div style="clear: both;"></div>
+</div>
+<% for(var i=0,j=this.html.sample.length; i<j; i++) { %><%== this.html.sample[i] %><% } %>
+<% for(var i=0,j=this.css.sample.length; i<j; i++) { %><%== this.css.sample[i] %><% } %>
+<% for(var i=0,j=this.javascript.sample.length; i<j; i++) { %><%== this.javascript.sample[i] %><% } %>
+<% } %>
+<% if (this.dir.sample.length > 0) { %>
+<% for(var i=0,j=this.dir.sample.length; i<j; i++) { %><%== this.dir.sample[i] %><% } %>
+<% } %>

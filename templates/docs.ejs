@@ -1,0 +1,8 @@
+
+<% if (this.elements) { %>
+  <% for(var i=0,j=this.elements.length; i<j; i++) { %>
+    <%== can.view.render('templates/example.ejs', this.elements[i]) %>
+  <% } %>
+<% } else { %>
+
+<% } %>

@@ -1,0 +1,5 @@
+- Use double quotation marks for attribute values where necessary
+- Add comments on closing tags where there are multiple lines nested (<code><-- //#page --></code>)
+- Avoid the use of IDs except for primary containers
+- Where IDs are needed, use single words
+- Use HTML according to its intended purpose

@@ -1,0 +1,40 @@
+{
+  "pagename": "Common Modules",
+  "elements": [{
+    "title": "Modules",
+    "description": "Common Modules for Cars.com.",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/modules.markdown"
+    }
+  }
+  ,
+  {
+    "title": "Inventory Row",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/inventoryrow.markdown"
+    }
+  }
+  ,
+  {
+    "title": "Guided Navigation",
+    "description": "",
+    "requires": {
+      "css": [],
+      "js": []
+    },
+    "usage": {
+      "file": "examples/common/guidednavigation.markdown"
+    }
+  }
+  ]
+}
+

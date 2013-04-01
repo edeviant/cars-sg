@@ -1,0 +1,5 @@
+<div class="carssg-jumplinks"><p>Jump to: <a href="<%= can.route.url({type: 'guides', id: this.id }) %>">Top</a>
+<% for(var i=0, j=this.sections.length; i<j; i++) { %>
+  | <a href="<%= can.route.url({type: 'guides', id: this.id, sub: this.sections[i].section}) %>"><%= this.sections[i].title %></a>
+<% } %></p>
+</div>

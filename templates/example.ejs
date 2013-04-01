@@ -1,0 +1,5 @@
+<div class="carssg-comments" id="<%= this.containerId %>">
+  <% if (this.title.length > 0) { %><h2><%= this.title %></h2><% } %>
+  <% if (this.description.length > 0) { %><h4><%= this.description %></h4><% } %>
+  <% if (this.requires.css.length > 0) { %><p class="note"><em>Stylesheets required beyond core.css:</em> <%= this.requires.css.join(', ') %></p><% } %>
+</div>
