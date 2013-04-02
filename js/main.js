@@ -7,7 +7,7 @@
 */
 
 // simple config
-sgSubDir = '/cars-sg';
+__SUBDIR__ = '/cars-sg';
 
 require.config({
   /**
@@ -25,8 +25,8 @@ require.config({
     jquerytools: "libs/jquery/jquery.tools.min", // custom AMD friendly version - CJ
     domReady: "libs/requirejs/domReady",
     text: "libs/requirejs/text",
-    showdown: sgSubDir+"/js/libs/showdown/showdown",
-    highlight: sgSubDir+"/js/libs/highlight.js/highlight.pack"
+    showdown: __SUBDIR__+"/js/libs/showdown/showdown",
+    highlight: __SUBDIR__+"/js/libs/highlight.js/highlight.pack"
   },
   shim: {
     'can': ['jquery'],
@@ -49,6 +49,6 @@ define('jquery-nc', ['jquery'], function($){
 /**
  * kickoff main application logic
  */
-require([sgSubDir+'/js/app.js'], function(app) {
+require([__SUBDIR__+'/js/app.js'], function(app) {
   var router = new app.router(window);
 });

@@ -128,7 +128,7 @@ define(['jquery', 'can', 'showdown', 'highlight'], function($, can, showdown, hi
             define('loc', [], function() {
               return '#' + data[i].containerId;
             });
-            require(['text!'+ sgSubDir + '/' + data[i].usage.file, 'loc'], function(t, loc) {
+            require(['text!'+ __SUBDIR__ + '/' + data[i].usage.file, 'loc'], function(t, loc) {
               docs = _app.parseUsage(t);
               $.each(docs, function(c, e) {
                 _app.renderDocs(docs[c], loc);
