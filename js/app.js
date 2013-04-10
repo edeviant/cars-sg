@@ -70,12 +70,12 @@ define(['jquery', 'can', 'showdown', 'highlight'], function($, can, showdown, hi
         }
       },
       "{window} scroll": function() {
-        $('.carssg-style-menu-container').css({
-          'top': $(window).scrollTop() + "px"
-        });
-        $('.carssg-jumplinks').css({
-          'top': $(window).scrollTop() + "px"
-        });
+        // $('.carssg-style-menu-container').css({
+        //   'top': $(window).scrollTop() + "px"
+        // });
+        // $('.carssg-jumplinks').css({
+        //   'top': $(window).scrollTop() + "px"
+        // });
       },
       loadNav: function() {
         var _app = this;
@@ -138,7 +138,6 @@ define(['jquery', 'can', 'showdown', 'highlight'], function($, can, showdown, hi
         }
       },
       sideLoad: function(url) {
-        // console.log(require.toUrl('/'+url));
         if(url.match(/css$/i)) {
           $('head').append('<link rel="stylesheet" href="/' + url + '">');
         }

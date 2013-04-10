@@ -4,7 +4,7 @@ body { }
 .menu-items { padding-top: 10px; }
 .carssg-style-menu-container {
   background: #404853;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 250px;
@@ -16,12 +16,12 @@ body { }
 .carssg-styleguide-menu { overflow-x: hidden; overflow-y: hidden; background: #404853; }
 .carssg-style-page { background: #eee; margin-left: 250px; padding: 40px 20px 20px 20px; }
 .carssg-jumplinks {
-  position: absolute;
+  position: fixed;
   background: #fff;
   border-bottom: 1px solid #eee;
   width: 100%;
   z-index: 500;
-  font-size: 11px;
+  font-size: .6rem;
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
 }
 .carssg-jumplinks p {
@@ -73,7 +73,7 @@ body { }
 }
 .carssg-comments > .more-detail > ul li {
   list-style: disc;
-  font-size: 90%;
+  font-size: .9rem;
 }
 .carssg-comments > .more-detail > ol li {
   list-style: decimal;
@@ -81,8 +81,8 @@ body { }
 .carssg-comments > p a,
 .carssg-comments > p a:visited { padding: 0; }
 .carssg-comments > iframe { margin-left: 10px; margin-top: 10px; }
-.carssg-comments > .more-detail > ul,
-.carssg-comments > .more-detail > ol { margin-left: 20px; }
+.carssg-comments > .more-detail ul,
+.carssg-comments > .more-detail ol { margin-left: 20px; }
 .carssg-comments > ul,
 .carssg-comments > ol,
 .carssg-comments > p { /*font-size: 12px;*/ }
@@ -91,7 +91,7 @@ body { }
 .carssg-comments-container { position: relative; width: 100%; }
 
 .carssg-comments > pre > code, .more-detail code {
-  font-family: monospace; font-size: 12px; padding: 10px; white-space: pre-wrap;
+  font-family: monospace; font-size: .9rem; padding: 10px; white-space: pre-wrap;
 }
 .more-detail code {
   padding: 0; margin: 0; color: #777; white-space: normal;
@@ -115,7 +115,7 @@ body { }
   color: #ebebeb;
   content: "Code";
   font-family: 'Effra', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: .9rem;
   left: -1px;
   opacity: 0.6;
   padding: 3px 7px;
@@ -142,22 +142,22 @@ body { }
 }
 
 .carssg-comments > p.note {
-  font-size: 12px; color: #888;
+  font-size: .9rem; color: #888;
 }
 
 body .codedemo {
   background: url(data:image/png;
   base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAAAXNSR0IArs4c6QAAAAZQTFRF+vr6////+o8bnQAAABBJREFUCB1jYPjPgBXhEAYAfr8P8bm+jEoAAAAASUVORK5CYII=);
-  border: 1px solid #ebebeb ;
+  border: 1px solid #ebebeb;
   border-radius: 3px;
-  font-size: 100%;
+  /*font-size: 100%;*/
   padding: 40px;
   position: relative;
 }
 
 *:not(.codedemo) .carssg-styleguide-menu-heading h1 {
   color: #fff;
-  font-size: 22px;
+  font-size: 1.35rem;
   margin: 0;
   padding-left: 10px;
   font-family: "Effra";
@@ -173,7 +173,7 @@ body .codedemo::after {
   color: #ebebeb;
   content: "Example";
   font-family: 'Effra', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: .9rem;
   left: -1px;
   padding: 3px 7px;
   position: absolute;
@@ -181,7 +181,7 @@ body .codedemo::after {
 }
 
 .carssg-styleguide-menu > li > h3 {
-  font-size: 18px;
+  font-size: 1.1rem;
   margin: 5px;
   padding-left: 15px;
   color: #fff;
@@ -229,5 +229,5 @@ body .codedemo::after {
 }
 
 .sheet-submenu .li a, .sheet-submenu .li a:hover {
-  color: #fff; font-size: 11px;
+  color: #fff; font-size: .9rem;
 }
