@@ -2,6 +2,6 @@
 - All code in any code-base should look like a single person typed it, no matter how many people contributed.
 - Strictly enforce the agreed upon style.
 - If in doubt when deciding upon a style, use existing, common patterns.
-- Any changes done to following files MUST be be approved by Lead or Enterprise Archtect before it goes to production.
-- core.css
-- main.js
+- Any changes done to following files MUST be be approved by Lead or Enterprise Architect before it goes to production.
+  - core.css
+  - main.js

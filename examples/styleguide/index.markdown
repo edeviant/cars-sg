@@ -1,5 +1,7 @@
-Welcome to the StyleGuide. This will get more detail as we implement.
+### Welcome to the StyleGuide.
 
-This is a FE Single Page app (for reasons that are detailed somewhere) and pulls in documented assets and functionality as they currently exist in that environment.
+This section will get more detail as we implement.
 
-__heads up:__ for now, when a page doesn't exist, the SG just redirects back to the prior page
+The Cars.com styleguide is a single page app, running CanJS. Being an FE-only single page application ensure that no application logic is required for style and module documentation. It is configured to run along-side the current working branch of the codebase.
+
+Read more: Select "Using this Styleguide" in the navigation at left.
