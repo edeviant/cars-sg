@@ -7,7 +7,7 @@
 */
 
 // simple config
-__SUBDIR__ = '/cars-sg';
+__SUBDIR__ = window.location.pathname || '/cars-sg';
 
 require.config({
   /**
